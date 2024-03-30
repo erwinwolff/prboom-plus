@@ -26,7 +26,7 @@
 
 @implementation ResolutionDataSource
 
-static int resolutionSort(id first, id second, void *context)
+static NSInteger resolutionSort(id first, id second, void *context)
 {
 	NSArray *firstComponents = [first componentsSeparatedByString:@"x"];
 	NSArray *secondComponents = [second componentsSeparatedByString:@"x"];
